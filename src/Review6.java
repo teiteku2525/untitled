@@ -1,5 +1,5 @@
 public class Review6 {
-    public void review() {
+    public static void main(String[] args) {
         System.out.println(105 + 5);
         System.out.println(10 - 2.5);
         System.out.println(100 / 3);

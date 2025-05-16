@@ -1,5 +1,5 @@
 public class Review4 {
-    public void review() {
+    public static void main(String[] args) {
         int number1 = 5;
         String str = "8888";
         double PI =3.141592;
