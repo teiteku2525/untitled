@@ -5,8 +5,8 @@ public class Main {
         Review3 rev3 = new Review3();
         Review4 rev4 = new Review4();
         Review5 rev5 = new Review5();
+        Review6 rev6 = new Review6();
 
-
-        rev5.review(); //ここのレビューの値を変更する
+        rev6.review(); //ここのレビューの値を変更する
     }
 }
