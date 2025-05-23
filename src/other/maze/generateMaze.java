@@ -1,6 +1,6 @@
-package other;
+package other.maze;
 
-public class GenerateMaze {
+public class generateMaze {
     public static void main(String[] args) {
         int height = 7;
         int width = 7;
@@ -10,8 +10,10 @@ public class GenerateMaze {
 
 
     }
-    public static void move(int x, int y) {
+    public void moveCheck(int x, int y) {//xとyは現在の座標を表す
         int count = 0;
+        int[] order = new int [] {0,1,2,3};
+        //Collections.shuffle(); これ使えない
         do {
             int way = (int) (Math.random() * 4);
 
@@ -34,6 +36,12 @@ public class GenerateMaze {
                     break;
             }
         }while(count < 4);
+    }
+
+    public int[] shuffle(int[] data) {
+        
+
+
     }
 
 }
