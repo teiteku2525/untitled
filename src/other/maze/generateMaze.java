@@ -41,7 +41,7 @@ public class generateMaze {
     public int[] shuffle(int[] data) {
         
 
-
+        return new int[]{3, 3};
     }
 
 }
