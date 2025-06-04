@@ -6,7 +6,8 @@ import java.util.List;
 
 public class WallGenerate {
     public void mainControl(String[] args) {
-
+        list<Integer> myWall = Arrays.asList();
+        
     }
     public void moveCheck(int x, int y) {//xとyは現在の座標を表す
         int count = 0;
@@ -38,4 +39,6 @@ public class WallGenerate {
             }
         } while (count < 4);
     }
+    private static void myWallReset() {
+        myWall.clear
 }
